@@ -1,6 +1,10 @@
 #!/bin/bash
 
-echo "Rakesh : Hi Srinu, How are you ?"
-echo "Srinu : Hello Rakesh . I am fine. How are you doing?"
-echo "Rakesh : I am great Srinu. what about you?"
-echo "Srinu : I started learning shell scripting"
+
+PERSON1=Rakesh
+PERSON2=Srinu
+
+echo "$PERSON1 : Hi $PERSON2, How are you ?"
+echo "$PERSON2 : Hello $PERSON1 . I am fine. How are you doing?"
+echo "$PERSON1 : I am great $PERSON2. what about you?"
+echo "$PERSON2 : I started learning shell scripting"
