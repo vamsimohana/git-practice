@@ -1,3 +1,5 @@
 #!/bib/bash
 
-date
+DATE=$(date)
+
+echo 'Today date: $Date'
